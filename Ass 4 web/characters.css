@@ -1,0 +1,125 @@
+html,body{
+  height:100%;
+  width:100%;
+  font-family:sans-serif;
+
+}
+.navbar{
+  background-color: #B0C4DE;
+  padding:1% 0;
+  font-size:1.4em;
+  font-family:sans-serif;
+}
+.navbar-brand{
+  
+  padding:0 20px 5px;
+}
+#brand-image{
+  height:50px;
+}
+.dropdown{
+  position:relative;
+}
+
+#myNavbar.dropdown-menu{
+  display:none;
+  position:absolute;
+  background-color:#FFC0CB;
+  box-shadow:2px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1;
+}
+#myNavbar .dropdown-menu li a{
+  color:#000000;
+  background-color:#87CEEB;
+  font-size:1.3em;
+}
+#myNavbar .dropdown:hover .dropdown-menu{
+  display:block;
+  color:#FFFFFF;
+}
+#myNavbar .navbar-nav li a{
+  color:#000000;
+}
+#myNavbar .navbar-nav li a:hover{
+  color:#FFFFFF;
+}
+#myNavbar .navbar-nav .active{
+  color:#FFFFFF;
+}
+#home{
+  background:url(happy-home.jpg) no-repeat center center fixed;
+  display:table;
+  height:100%;
+  position:relative;
+  width:100%;
+  background-size:cover;
+}
+.landing-text{
+  display:table-cell;
+  text-align:center;
+  vertical-align: middle;
+  font-family: monospace;
+  color:#FFFFFF;
+}
+.landing-text h1{
+  font-size:400%;
+  font-width:700;
+
+}
+.item{
+  padding:150px 150px 50px 150px;
+}
+.item-2{
+  padding-bottom:30px;
+}
+.item-2 img{
+  width:90%;
+  height:100%;
+  border-radius: 200px;
+}
+.item img{
+  width:90%;
+  height:100%;
+  border-radius: 200px;
+}
+#fixed{
+  background:url(https://wallpapercave.com/wp/wp2544574.jpg) no-repeat center center fixed;
+  display:table;
+  position:relative;
+  height:60%;
+  width:100%;
+  background-size:cover;
+}
+footer{
+  width:100%;
+  height:40%;
+  background-color:#B0C4DE;
+  padding:3% 5% 10% 5%; 
+  color:#FFFFFF;
+}
+
+.fa{
+  padding:15px;
+  font-size:25px;
+  color:#FFFFFF;
+}
+.fa:hover{
+  color:#000000;
+  text-decoration:none;
+}
+@media (max-width:768px){
+  .landing-text h1{
+    font-size:300%;
+  }
+  .fa{
+    font-size:20px;
+    padding:10px;
+  }
+  .item{
+    padding:150px 0px 30px 0px;
+  }
+}
+ h4{
+  text-align:center;
+}
+

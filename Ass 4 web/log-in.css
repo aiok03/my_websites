@@ -1,0 +1,186 @@
+html,body{
+  height:100%;
+  width:100%;
+  font-family:sans-serif;
+
+}
+.navbar{
+  background-color: #B0C4DE;
+  padding:1% 0;
+  font-size:1.4em;
+  font-family:sans-serif;
+}
+.navbar-brand{
+  
+  padding:0 20px 5px;
+}
+#brand-image{
+  height:50px;
+}
+.dropdown{
+  position:relative;
+}
+#myNavbar.dropdown-menu{
+  display:none;
+  position:absolute;
+  background-color:#FFC0CB;
+  box-shadow:2px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1;
+}
+#myNavbar .dropdown-menu li a{
+  color:#000000;
+  background-color:#87CEEB;
+  font-size:1.3em;
+}
+#myNavbar .dropdown:hover .dropdown-menu{
+  display:block;
+  color:#FFFFFF;
+}
+
+#home{
+  background:url(fairy-home.jpg) no-repeat center center fixed;
+  display:table;
+  height:100%;
+  position:relative;
+  width:100%;
+  background-size:cover;
+}
+#myNavbar .navbar-nav li a{
+  color:#000000;
+}
+#myNavbar .navbar-nav li a:hover{
+  color:#FFFFFF;
+}
+#myNavbar .navbar-nav .active{
+  color:#FFFFFF;
+}
+#fixed{
+  background:url(https://wallpapercave.com/wp/wp2544574.jpg) no-repeat center center fixed;
+  display:table;
+  position:relative;
+  height:60%;
+  width:100%;
+  background-size:cover;
+}
+footer{
+  width:100%;
+  height:40%;
+  background-color:#B0C4DE;
+  padding:3% 5% 10% 5%; 
+  color:#FFFFFF;
+}
+
+.fa{
+  padding:15px;
+  font-size:25px;
+  color:#FFFFFF;
+}
+.fa:hover{
+  color:#000000;
+  text-decoration:none;
+}
+@media (max-width:768px){
+  .landing-text h1{
+    font-size:300%;
+  }
+  .fa{
+    font-size:20px;
+    padding:10px;
+  }
+}
+.item{
+  padding:100px 0;
+}
+.item img{
+  width:90%;
+}
+.item h2{
+  text-align:center;
+}
+.gildie-2{
+  padding-top:55px;
+}
+.item-2{
+  padding:60px 0px;
+}
+.form-login
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-login .form-login-heading, .form-login .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-login .checkbox
+{
+    font-weight: normal;
+}
+.form-login .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-login .form-control:focus
+{
+    z-index: 2;
+}
+.form-login input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-login input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+#img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin: auto;
+}
