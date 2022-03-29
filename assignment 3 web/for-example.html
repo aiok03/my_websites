@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="new-disney.css" />
+    <title>New</title>
+  </head>
+  <body>
+    <header>
+      <div class="box-1">
+        <div class="inner-header">
+        <div class="soul-box">
+          <b class="soul">Soul</b>
+        </div>
+        
+      <div class="menu">
+       <ul>
+
+        <li class="active"><a href="new.html">Home</a></li>
+        <li><a href="new-production.html">Production</a>
+          <div class="sub-menu-first">
+            <ul>
+              <li><a href="#">Disney</a></li>
+              <li><a href="#">Pixar</a></li>
+              <li><a href="#">Studio Ghibli</a></li>
+              <li><a href="#">Dreamworks</a></li>
+              <li><a href="#">Studio Blue sky</a></li>
+              <li><a href="#">Adult Swim</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">Genres</a>
+          <div class="sub-menu-first">
+            <ul>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Adventure</a></li>
+              <li><a href="#">Comedy</a></li>
+              <li><a href="#">Drama</a></li>
+              <li><a href="#">Magic</a></li>
+              <li><a href="#">Mystery</a></li>
+              <li><a href="#">Romance</a></li>
+              <li><a href="#">Fantasy</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li><a href="#">Anime</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Shop</a></li>
+        
+       </ul>
+       </div>
+       <div class="search-box">
+        <form>
+         <input type="text" placeholder="">
+         <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+       </div>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+     <div class="side-bar">
+      <div class="inner-bar">
+        <div class="bar-1">
+        <b class="countries">Countries:</b>
+
+        <ul>
+          <li class="text">-USA</li>
+          <li class="text">-England</li>
+          <li class="text">-Argentina</li>
+          <li class="text">-Austria</li>
+          <li class="text">-South Korea</li>
+          <li class="text">-North Korea</li>
+          <li class="text">-Kazakhstan</li>
+          <li class="text">-Russia</li>
+          <li class="text">-Japan</li>
+          <li class="text">-Mongolia</li>
+          <li class="text">-France</li>
+          
+        </ul>
+      </div>
+      <div class="bar-2">
+        <b class="year">Years:</b>
+
+        <ul>
+          <li class="text">-1950-1970</li>
+          <li class="text">-1970-1990</li>
+          <li class="text">-1990-2000</li>
+          <li class="text">-2000-2005</li>
+          <li class="text">-2005-2010</li>
+          <li class="text">-2010-2015</li>
+          <li class="text">-2015-2020</li>
+          
+        
+        </ul>
+      </div>
+      </div>
+ 
+     </div>
+     <div class="main">
+      <div class="disney">
+        <br>Disney</br>
+      </div>
+      <div class="disney-content">
+        gd
+      </div>
+    </div>
+  </div>
+
+    
+    <div class="footer">
+      <div class="for-footer-logo">
+      Soul
+    </div>
+    <div class="for-footer">
+      <pre>About Soul    Soul Help    Careers     Contact Us    Advertise With Us</pre>
+    </div>
+    <div class="for-footer">
+      <pre>Terms of Use    Additional Content      Information Privacy Policy    Your California Privacy Rights Children's Online Privacy</pre>
+    </div>
+    <div class="for-footer">
+      © Disney, All Rights Reserved, Disney Entertainment
+    </div>
+    </div>
+
+
+  </body>
+
+
+  body{
+  padding: 0 0;
+    margin: 0 0;
+    background color:white;
+}
+.box-1{
+  width:100%;
+  height:90px;
+  background-color:white ;
+  position:fixed;
+  z-index:3;
+}
+header{
+    
+  width:100%;
+  height:90px;
+  background-color:;
+  z-index:3;
+}
+.inner-header{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:row;
+  border-bottom:solid;
+}
+.soul-box{
+  font-family: mistral,sans-serif;
+  font-size:50px;
+  font-weight: bolder;
+    height:100%;
+    width:130px;
+}
+.soul{
+  position:relative;
+  left:30px;
+  top:20px;
+}
+.menu{
+  height:100%;
+  width:900px;
+  background-color:;
+  position:relative;
+}
+.search-box{
+  height:100%;
+  width:400px;
+    background-color:;
+}
+form {
+  position: relative;
+  top:40px;
+  left:200px;
+  margin: 0 auto;
+}
+input, button {
+  border-color:black;
+  outline: none;
+  border-radius: 8px;
+}
+.menu ul
+{   
+  display:inline-flex;
+  list-style:none;
+  color:black
+  margin:0;
+  padding:0;
+}
+.menu ul li{
+  width:90px;
+  margin:13px;
+  padding:13px;
+  font-size:15px;
+  font-family:tahoma,sans-serif;
+}
+.menu ul li a{
+  text-decoration:none;
+  color:black;
+}
+.active, .menu ul li:hover
+{
+   background:skyblue;
+   box-shadow:0 0 10px grey;
+   padding:11px;
+   border-radius:3px;
+}
+.sub-menu-first{
+  display:none;
+}
+.menu ul li:hover .sub-menu-first
+{
+  display:block;
+  position:absolute;
+  background:pink;
+  margin-top:15px;
+  margin-left:-15px;
+}
+.menu ul li:hover .sub-menu-first ul{
+  display:block;
+  margin:10px;
+}
+.menu ul li:hover .sub-menu-first ul li{
+  width:150px;
+  padding:10px;
+  border-bottom: 1px dotted white;
+  background:transparent;
+  border-radius:0;
+  text-align:left;
+}
+.menu ul li:hover .sub-menu-first ul li:last-child{
+  border-bottom:none;
+  }
+.menu ul li:hover .sub-menu-first ul li a:hover
+{
+  color:white;
+}
+.content{
+  width:100%;
+  height:700px;
+  display:flex;
+  flex-direction: row;
+  background-color:lightblue;
+}
+.side-bar{
+  
+    background-color:lightblue;
+    height:100%;
+    width:18%;
+}
+.inner-bar{
+  position:fixed;
+    background-color:mistyrose;
+    height:100%;
+    width:18%;
+    border-right: solid;
+    z-index:2;
+}
+.bar-1{
+  width:100%;
+  height:50%;
+  border-bottom:  solid;
+}
+.bar-2{
+  width:100%;
+  height:50%;
+  background-color: ;
+}
+.main{
+  height:100%;
+  width:82%;
+  background-color: ghostwhite;
+}
+.disney{
+  width:100%;
+  height:10%;
+  text-align:center;
+  font-style:sans-serif;
+  background-color:pink;
+  font-size:25px;
+}
+.disney-content{
+  width:100%;
+  height:90%;
+  background-color:orange;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.countries{
+  position:relative;
+  top:5px;
+  left:50px;
+  font-style:sans-serif;
+  font-size:28px;
+}
+.year{
+  position:relative;
+  top:15px;
+  left:74px;
+  font-style:sans-serif;
+  font-size:28px;
+}
+ul{
+  list-style: none;
+}
+.text{
+
+  position:relative;
+  font-size:20px;
+  top:10px;
+  left:30px;
+                                                                                                                                                                                     
+}
+.footer{
+  background-color:white;
+  width:100%;
+  height:180px;
+  display:flex;
+  flex-direction:column;
+}
+.for-footer{
+  position:relative;
+  left:160px;
+  width:100%;
+  height:60px;
+  text-align:center;
+  font-family: sans-serif;
+  font-size:11px;
+}
+.for-footer-logo{
+  position:relative;
+  left:160px;
+  width:100%;
+  height:70px;
+  font-family: mistral,sans-serif;
+  font-size:40px;
+  font-weight: bolder;
+    text-align:center;
+}
